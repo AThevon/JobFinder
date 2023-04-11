@@ -1,0 +1,25 @@
+section.single-section {
+    margin: 8rem 10rem;
+}
+
+article.article-single {
+    background-color: #f9f9f9;
+    border-radius: 25px;
+    color: #232323;
+    padding: 2rem 6rem;
+}
+
+img.img-single {
+    object-fit: contain;
+    height: 24rem;
+    margin: 2rem 0;
+    filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.3));
+}
+
+.second-container.single {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}

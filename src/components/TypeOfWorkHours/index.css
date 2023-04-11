@@ -1,0 +1,19 @@
+.full-time,
+.part-time {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10rem;
+}
+
+.full-time {
+    color: #eb8450;
+    border: 1px solid #eb8450;
+}
+
+
+.part-time {
+    color: #5550eb;
+    border: 1px solid #5550eb;
+}

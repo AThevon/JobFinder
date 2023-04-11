@@ -1,0 +1,109 @@
+section.all-section {
+    width: 80vw;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    color: #232323;
+}
+
+section.all-section > * {
+    flex-basis: calc(50% - 2rem);
+}
+
+article.article-all {
+    padding: 2rem;
+    background-color: #f9f9f9cb;
+    align-items: center;
+    text-align: start;
+    border-radius: 10px;
+    transition: ease-out .2s;
+    cursor: pointer;
+}
+
+article.article-all:hover {
+    background-color: #f9f9f9;
+    scale: 1.04;
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.second-container {
+    text-align: end;
+}
+
+
+.btn-return {
+    position: absolute;
+    left: 10rem;
+    top: 10rem;
+    padding: 1.5rem 4rem;
+    border-radius: 25px;
+    background-color: #f9f9f9;
+    transition: ease-out .2s;
+}
+
+.btn-return:hover {
+    scale: 1.08;
+}
+
+@media screen and (max-width: 1025px) {
+    section.all-section {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-inline: 5rem;
+        flex-wrap: wrap;
+    }
+
+    article.article-all {
+        width: 100%;
+    }
+
+    article.article-all:hover {
+        background-color: #f9f9f9b3;
+        scale: 1;
+    }
+
+    section.all-section > * {
+        flex-basis: 100%;
+    }
+}
+
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    outline: 0px solid #5196ea;
+    border: 14px solid #f3f3f3;
+    border-top: 14px solid #5196ea;
+    border-radius: 50%;
+    box-shadow: 4px 4px 1px 10px #6b44dd;
+    animation: spin 1s linear infinite;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+        outline: 0px solid #5196ea;
+    }
+    40% {
+        transform: translate(-50%, -50%) rotate(180deg);
+        outline: 12px solid #5196ea;
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+        outline: 0px solid #5196ea;
+    }
+}

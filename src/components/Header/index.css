@@ -1,0 +1,17 @@
+header {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--second-font);
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+
+img.logo-jobfinder {
+    object-fit: contain;
+    position: absolute;
+    right: 0;
+    top: -1.5rem;
+    height: 16rem;
+}
