@@ -12,3 +12,8 @@ body {
   background: linear-gradient( #509beb, #6d41dd );
   font-family: var(--main-font);
 }
+
+a {
+  text-decoration: none;
+  color: #232323;
+}

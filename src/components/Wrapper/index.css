@@ -14,6 +14,7 @@ section.all-section > * {
 }
 
 article.article-all {
+    position: relative;
     padding: 2rem;
     background-color: #f9f9f9cb;
     align-items: center;
@@ -40,18 +41,9 @@ article.article-all:hover {
 }
 
 
-.btn-return {
+.span-link {
     position: absolute;
-    left: 10rem;
-    top: 10rem;
-    padding: 1.5rem 4rem;
-    border-radius: 25px;
-    background-color: #f9f9f9;
-    transition: ease-out .2s;
-}
-
-.btn-return:hover {
-    scale: 1.08;
+    inset: 0;
 }
 
 @media screen and (max-width: 1025px) {

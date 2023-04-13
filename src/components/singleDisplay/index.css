@@ -1,5 +1,9 @@
 section.single-section {
-    margin: 8rem 10rem;
+    /* margin: 8rem 10rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 article.article-single {
@@ -7,6 +11,8 @@ article.article-single {
     border-radius: 25px;
     color: #232323;
     padding: 2rem 6rem;
+    margin: 8rem 4rem;
+    max-width: 120rem;
 }
 
 img.img-single {
@@ -22,4 +28,20 @@ img.img-single {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5rem;
+}
+
+
+
+.btn-return {
+    position: absolute;
+    left: 10rem;
+    top: 10rem;
+    padding: 1.5rem 4rem;
+    border-radius: 25px;
+    background-color: #f9f9f9;
+    transition: ease-out .2s;
+}
+
+.btn-return:hover {
+    scale: 1.08;
 }

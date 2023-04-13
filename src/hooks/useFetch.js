@@ -21,7 +21,7 @@ export const useFetch = (url) => {
 
         setTimeout(() => {
         fetchData();
-        }, 2000);
+        }, 200);
 
     }, [url]);
 

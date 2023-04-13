@@ -1,11 +1,14 @@
 import './index.css';
+import { Link } from "react-router-dom";
 import Logo from '../../assets/logo-jobfinder.png';
 
-const Header = ({title}) => {
+const Header = ({ title }) => {
     return (
         <header>
             <h1>{title}</h1>
-            <img src={Logo} alt="Logo JobFinder" className='logo-jobfinder' />
+            <Link to="/">
+                <img src={Logo} alt="Logo JobFinder" className='logo-jobfinder' />
+            </Link>
 
         </header>
     );
