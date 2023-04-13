@@ -15,6 +15,7 @@ section.all-section > * {
 
 article.article-all {
     position: relative;
+    overflow: hidden;
     padding: 2rem;
     background-color: #f9f9f9cb;
     align-items: center;
@@ -24,16 +25,23 @@ article.article-all {
     cursor: pointer;
 }
 
+
 article.article-all:hover {
     background-color: #f9f9f9;
     scale: 1.04;
 }
 
+article.article-all.disabled {
+    /* transform: scaleY(0); */
+    /* scale: 0; */
+    display: none;
+}
+
+
 .first-container {
     display: flex;
     justify-content: space-between;
 }
-
 
 
 .second-container {

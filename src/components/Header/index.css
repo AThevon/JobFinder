@@ -1,20 +1,27 @@
 header {
-    height: 10rem;
+    position: relative;
+    height: 12rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding-inline: 6rem 7rem;
+    margin-bottom: 4rem;
     font-family: var(--second-font);
     letter-spacing: 1px;
     font-size: 1.8rem;
     perspective: 500px;
     perspective-origin: 24% 50%;
+    z-index: 999;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 
 img.logo-jobfinder {
     object-fit: contain;
-    position: absolute;
-    right: 0;
-    top: -1.5rem;
     height: 16rem;
     transition: .2s;
 }
@@ -22,6 +29,4 @@ img.logo-jobfinder {
 
 img.logo-jobfinder:hover {
     transform: scaleX(1.2) scaleY(1.2) scaleZ(1.5) rotateX(0deg) rotateY(-25deg) rotateZ(-65deg) translateX(0px) translateY(0px) translateZ(2px) skewX(0deg) skewY(0deg);
-    
-
 }

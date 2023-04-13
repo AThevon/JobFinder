@@ -1,0 +1,21 @@
+.main_form {
+    position: relative;
+}
+
+.main_form ul {
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 26rem;
+}
+
+.main_form ul a{
+    color: #6e6e6e;
+}
+
+.main_form ul a li:hover{
+    color: #232323;
+}
+
+.main_form input {
+    width: 26rem;
+}

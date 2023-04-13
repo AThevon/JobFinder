@@ -5,11 +5,12 @@ import Logo from '../../assets/logo-jobfinder.png';
 const Header = ({ title }) => {
     return (
         <header>
-            <h1>{title}</h1>
-            <Link to="/">
-                <img src={Logo} alt="Logo JobFinder" className='logo-jobfinder' />
-            </Link>
-
+            <div className="logo">
+                <Link to="/">
+                    <img src={Logo} alt="Logo JobFinder" className='logo-jobfinder' />
+                </Link>
+                <h1>{title}</h1>
+            </div>
         </header>
     );
 }
